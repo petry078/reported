@@ -1,4 +1,4 @@
-# ReportedApp
+# reported.space
 
 Simple, fast, dark-mode and distraction free note-taking web app with autosave and local storage.
 
