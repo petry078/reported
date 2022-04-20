@@ -1,8 +1,8 @@
-#ReporterApp
+# ReporterApp
 
 Simple, fast, dark-mode and distraction free note-taking web app with autosave and local storage.
 
-![proof](https://github.com/petry078/reporter/proof.png)
+![proof](https://github.com/petry078/reporter/proof.jpeg)
 
 Try it!
 
@@ -13,3 +13,8 @@ Just sit and write.
 It works really fast, it is just a few lines of code.
 
 Text is stored on client browser with JavaScript localStorage property.
+
+## Future work
+
+* The green ligt at the top will blink red while the client is typing and when the text is not yet saved.
+
