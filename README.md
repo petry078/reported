@@ -6,7 +6,7 @@ Simple, fast, dark-mode and distraction free note-taking web app with autosave a
 
 Try it!
 
----> [https://petry078.github.io/reported](https://petry078.github.io/reported) <---
+---> [reported.space](reported.space) <---
 
 Just sit and write.
 
