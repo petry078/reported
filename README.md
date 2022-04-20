@@ -1,12 +1,12 @@
-# ReporterApp
+# ReportedApp
 
 Simple, fast, dark-mode and distraction free note-taking web app with autosave and local storage.
 
-![proof](https://raw.githubusercontent.com/petry078/reporter/main/proof.jpeg)
+![proof](https://raw.githubusercontent.com/petry078/reported/main/proof.jpeg)
 
 Try it!
 
----> [https://petry078.github.io/reporter](https://petry078.github.io/reporter) <---
+---> [https://petry078.github.io/reported](https://petry078.github.io/reported) <---
 
 Just sit and write.
 
