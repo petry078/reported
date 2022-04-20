@@ -2,7 +2,7 @@
 
 Simple, fast, dark-mode and distraction free note-taking web app with autosave and local storage.
 
-![proof](https://github.com/petry078/reporter/proof.jpeg)
+![proof](https://raw.githubusercontent.com/petry078/reporter/main/proof.jpeg)
 
 Try it!
 
