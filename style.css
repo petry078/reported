@@ -16,16 +16,6 @@ body {
     flex-direction: row;
 }
 
-i {
-    color: rgb(0, 255, 0);
-    margin: 0 0 0 10px;
-}
-
-#luzinha--saving {
-    color: red;
-    margin: 0 0 0 10px;
-}
-
 main {
     width: 100vw;
     height: 97vh;;
@@ -49,6 +39,8 @@ textarea {
     
 }
 
-footer {
-    display: flex;
+.luzinha {
+    font-size: larger;
+    margin: -6px 0 0 0;
+    color: #00ff00;
 }

@@ -32,3 +32,15 @@
         setInterval(s, 500);
         window.onunload = s();
     //FIM
+
+    //LIGHT COLOR
+
+    function down(){
+     document.getElementById("luzinha").style.color="#ff0000";
+    }
+    
+    function up(){
+        document.getElementById("luzinha").style.color="#00ff00";
+    }
+
+      //FIM
