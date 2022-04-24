@@ -18,5 +18,7 @@ Can be used with Grammarly, LanguageTool and others browser spell checkers.
 
 ## Future work
 
-* The green ligt at the top will blink red while the client is typing and when the text is not yet saved.
+* User interface;
+* About page;
+* Word and character counter.
   
