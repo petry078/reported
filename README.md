@@ -6,7 +6,7 @@ Simple, fast, dark-mode and distraction free note-taking web app with autosave a
 
 Try it!
 
----> [reported.space](reported.space) <---
+---> [reported.space](https://reported.space) <---
 
 Just sit and write.
 
