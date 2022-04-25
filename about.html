@@ -20,6 +20,10 @@
         text-align: center;
     }
 
+    a {
+        all: unset;
+    }
+
     ::selection {
     background: rgb(255, 255, 0);
     color: black;
@@ -51,6 +55,22 @@
         height: 10px;
     }
 
+    button {
+    background-color: rgb(255, 255, 0);
+    color: black;
+    font-style: bold;
+    border: 0;
+    border-radius: 8px;
+    padding: 9px 20px;
+    margin: 0 0 20px 0;
+    }
+
+    button:hover {
+    background-color: rgb(255, 0, 217);
+    color: white;
+    margin: 0 0 20px 0;
+    }
+
     @media screen and (min-width: 600px) {
     
     .gif {
@@ -76,8 +96,10 @@
         <p>Reported.space is a <span>simple</span>, <span>fast</span>, <span>dark-moded</span>, <span>distraction free</span> note-taking web app that autosave your work locally on your browser. The text is stored on client browser with JavaScript localStorage property.</p>
         <p>It works really fast, it is just a few lines of code.</p>
         <p>Can be used with Grammarly, LanguageTool and others browser spell checkers.</p>
+        <button>
+        <a href="https://github.com/Petry078/reported">GitHub and source-code</a>
+        </button>
         <img src="/reported-ux.gif" alt="" class="gif">
-        
     </article>
     <hr>
     <footer> 
