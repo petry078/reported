@@ -21,3 +21,8 @@ Can be used with Grammarly, LanguageTool and others browser spell checkers.
 * User interface;
 * About page;
 * Word and character counter.
+
+- [x] About page;
+- [ ] User interface;
+- [ ] Words / characters counter;
+- [ ] Organize notes on other page.
