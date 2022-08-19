@@ -1,7 +1,6 @@
-    //IDENTAÇÃO COM TAB
-    //Ao precionar a tecla "tab" sem esta função, o usuário é jogado para o próximo campo de texto disponível no navegador.
-    //Função altera o funcionamento da tecla tab, para seu funcionamento padrão em editor de textos.
-
+//IDENTAÇÃO COM TAB
+//Ao precionar a tecla "tab" sem esta função, o usuário é jogado para o próximo campo de texto disponível no navegador.
+//Função altera o funcionamento da tecla tab, para seu funcionamento padrão em editor de textos.
     document.getElementById('inputText').addEventListener('keydown', function (e) {
         if (e.key == 'Tab') {
             e.preventDefault();
@@ -14,33 +13,46 @@
             this.selectionStart =
                 this.selectionEnd = start + 1;
         }
-    });
+        });
+//FIM
 
-    //FIM
-
-    //LOCAL STORAGE
+//LOCAL STORAGE
     var n = document.getElementById("inputText");
-        var s = function () {
-            localStorage.setItem("inputText", n.value);
-        }
-
-        if (window.localStorage) {
-            n.value = localStorage.getItem("inputText");
-        }
-
-        n.onchange = s();
-        setInterval(s, 500);
-        window.onunload = s();
-    //FIM
-
-    //LIGHT COLOR
-
-    function down(){
-     document.getElementById("luzinha").style.color="#ff0000";
-    }
-    
-    function up(){
-        document.getElementById("luzinha").style.color="#00ff00";
+    var s = function () {
+        localStorage.setItem("inputText", n.value);
     }
 
-      //FIM
+    if (window.localStorage) {
+        n.value = localStorage.getItem("inputText");
+    }
+
+    n.onchange = s();
+    setInterval(s, 500);
+    window.onunload = s();
+//FIM
+
+//LIGHT COLOR
+    function down() {
+        document.getElementById("luzinha").style.color = "#ff0000";
+    }
+
+    function up() {
+        document.getElementById("luzinha").style.color = "#00ff00";
+    }
+//FIM
+
+//CHARACTER COUNTER
+    let stringA = document.querySelector("textarea").value;
+    let stringALenght = stringA.length
+    console.log(stringALenght)
+
+    //Other way
+    let total = document.querySelector("textarea").value;
+    let stringTotal = String(total)
+    let charCounter = stringTotal.length
+    console.log(charCounter)
+//FIM
+
+
+
+
