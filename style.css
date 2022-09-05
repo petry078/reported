@@ -22,8 +22,20 @@ body {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
-    height: 97vh;;
+    height: 98vh;;
+}
+
+.ui {
+    font-size: smaller;
+    color: white;
+    display: flex;
+    height: 9px;
+    font-family: 'Courier Prime', monospace;
+    align-items: center;
+    justify-content: end;
 }
 
 textarea {
