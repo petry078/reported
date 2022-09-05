@@ -19,7 +19,7 @@ Can be used with Grammarly, LanguageTool and others browser spell checkers.
 ## Future work
 
 - [x] About page;
-- [ ] User interface;
+- [x] User interface;
 - [x] Characters counter (needs refinement);
 - [ ] Word counter;
 - [ ] Organize notes on other page.
