@@ -30,21 +30,21 @@ window.onunload = s();
 //END
 
 //LIGHT COLOR CHANGER
-function down() {
-    document.getElementById("luzinha").style.color = "#ff0000";
-}
-
-function up() {
-    document.getElementById("luzinha").style.color = "#00ff00";
-}
+function down() {document.getElementById("luzinha").style.color = "#ff0000"}
+function up() {document.getElementById("luzinha").style.color = "#00ff00"}
 //END
 
 //CHARCOUNT
 var inputText = document.getElementById("inputText");
 var charCount = document.getElementById("charCount");
 
+window.addEventListener("load",function(){
+    var characters = inputText.value.split('');
+    charCount.innerText = characters.length;
+});
+
 inputText.addEventListener("keyup",function(){
     var characters = inputText.value.split('');
-charCount.innerText = characters.length;
+    charCount.innerText = characters.length;
 });
 //END
