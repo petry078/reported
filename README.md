@@ -20,6 +20,6 @@ Can be used with Grammarly, LanguageTool and others browser spell checkers.
 
 - [x] About page;
 - [x] User interface;
-- [x] Characters counter (needs refinement);
+- [x] Characters counter;
 - [ ] Word counter;
 - [ ] Organize notes on other page.
