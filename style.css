@@ -36,6 +36,7 @@ main {
     font-family: 'Courier Prime', monospace;
     align-items: center;
     justify-content: end;
+    gap: 5px;
 }
 
 textarea {

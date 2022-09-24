@@ -38,13 +38,20 @@ function up() {document.getElementById("luzinha").style.color = "#00ff00"}
 var inputText = document.getElementById("inputText");
 var charCount = document.getElementById("charCount");
 
+
 window.addEventListener("load",function(){
     var characters = inputText.value.split('');
     charCount.innerText = characters.length;
+    
+    let wordCountString = document.getElementById("inputText").value.split(" ").length
+    wordCount.innerText = wordCountString
 });
 
 inputText.addEventListener("keyup",function(){
     var characters = inputText.value.split('');
     charCount.innerText = characters.length;
+    
+    let wordCountString = document.getElementById("inputText").value.split(" ").length 
+    wordCount.innerText = wordCountString
 });
 //END
