@@ -34,10 +34,9 @@ function down() {document.getElementById("luzinha").style.color = "#ff0000"}
 function up() {document.getElementById("luzinha").style.color = "#00ff00"}
 //END
 
-//CHARCOUNT
+//WORDS / CHARACTERS COUNTERS
 var inputText = document.getElementById("inputText");
 var charCount = document.getElementById("charCount");
-
 
 window.addEventListener("load",function(){
     var characters = inputText.value.split('');
