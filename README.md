@@ -28,7 +28,7 @@ Can be used with Grammarly, LanguageTool and others browser spell checkers.
 
 ### October 2022
 
-* CSS: `background-color` changed from #1C1B22 to #OD1117 (inspired by GitHub background color);
+* CSS: `background-color` changed from `#1c1b22` to `#0d1117` (inspired by GitHub background color);
 * CSS: `font-family` changed from `Courier Prime` to `Inconsolata`. The font will always be monospaced.
 
-> An example of how it was before in on the GIF at [reported.space/about](https://reported.space/about).
+> An example of how it was before is on the GIF at [reported.space/about](https://reported.space/about).
