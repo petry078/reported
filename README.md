@@ -26,7 +26,7 @@ Can be used with Grammarly, LanguageTool and others browser spell checkers.
 
 ## Changelog
 
-### October 2021
+### October 2022
 
 * CSS: `background-color` changed from #1C1B22 to #OD1117 (inspired by GitHub background color);
 * CSS: `font-family` changed from `Courier Prime` to `Inconsolata`. The font will always be monospaced.
