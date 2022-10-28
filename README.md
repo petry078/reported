@@ -23,3 +23,12 @@ Can be used with Grammarly, LanguageTool and others browser spell checkers.
 - [x] Characters counter;
 - [x] Word counter;
 - [ ] Organize notes on other page.
+
+## Changelog
+
+### October 2021
+
+* CSS: `background-color` changed from #1C1B22 to #OD1117 (inspired by GitHub background color);
+* CSS: `font-family` changed from `Courier Prime` to `Inconsolata`. The font will always be monospaced.
+
+> An example of how it was before in on the GIF at [reported.space/about](https://reported.space/about).
