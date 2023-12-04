@@ -22,9 +22,13 @@ Can be used with Grammarly, LanguageTool and others browser spell checkers.
 - [x] User interface;
 - [x] Characters counter;
 - [x] Word counter;
-- [ ] Organize notes on other page.
+- [ ] Make notes using [Saysomething API](https://github.com/petry078/saysomething) requests.
 
 ## Changelog
+
+### December 2023
+
+* JavaScript: Character counter functions now filter out blank spaces with simple regular expression. It starts correctly as `0 / 0`.
 
 ### October 2022
 
