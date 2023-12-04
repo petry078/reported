@@ -37,20 +37,24 @@ function up() {document.getElementById("luzinha").style.color = "#00ff00"}
 //WORDS / CHARACTERS COUNTERS
 var inputText = document.getElementById("inputText");
 var charCount = document.getElementById("charCount");
+var wordCount = document.getElementById("wordCount"); // assuming you have a word count element
 
-window.addEventListener("load",function(){
+window.addEventListener("load", function(){
     var characters = inputText.value.split('');
     charCount.innerText = characters.length;
     
-    let wordCountString = document.getElementById("inputText").value.split(" ").length
-    wordCount.innerText = wordCountString
+    var words = inputText.value.split(/\s+/).filter(function(word) {
+        return word.length > 0; // filter out empty strings
+    });
+    wordCount.innerText = words.length;
 });
 
-inputText.addEventListener("keyup",function(){
+inputText.addEventListener("keyup", function(){
     var characters = inputText.value.split('');
     charCount.innerText = characters.length;
     
-    let wordCountString = document.getElementById("inputText").value.split(" ").length 
-    wordCount.innerText = wordCountString
+    var words = inputText.value.split(/\s+/).filter(function(word) {
+        return word.length > 0; // filter out empty strings
+    });
+    wordCount.innerText = words.length;
 });
-//END
