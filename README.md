@@ -29,7 +29,8 @@ Can be used with Grammarly, LanguageTool and others browser spell checkers.
 ### December 2023
 
 * JavaScript: Character counter functions now filter out blank spaces with simple regular expression. It starts correctly as `0 / 0`.
-* HTML: `spellcheck=false` added to main `<textarea>` tag, this will prevent client browser to mark content as orthographically wrong (please use Grammarly or LanguageTool browser extension for spelling correction).
+* HTML: `spellcheck=false` added to main `<textarea>` tag, this will prevent client browser to mark content as orthographically wrong (please use Grammarly or LanguageTool browser extension for spelling correction).]
+* CSS: `::-webkit-scrollbar` (5px), `::-webkit-scrollbar-track` (background-color: #16181a) and `::-webkit-scrollbar-thumb` (background-color: #5a5a59) added to make ugly Chrome native scrollbar look a little bit more like Firefox scrollbar.
 
 ### October 2022
 
